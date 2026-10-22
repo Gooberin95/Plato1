@@ -1,0 +1,41 @@
+.states
+.web
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Reflex
+.web/
+.states/
+assets/external/
+*.db
+reflex.db
+uploaded_files/
+
+# Secrets and local env
+.env
+.env.*
+
+# Frontend tooling, if it lands at the repo root
+node_modules/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
