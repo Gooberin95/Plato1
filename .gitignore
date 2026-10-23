@@ -33,6 +33,9 @@ uploaded_files/
 # Frontend tooling, if it lands at the repo root
 node_modules/
 
+# CI output. The workflow rebuilds this directory.
+deploy-package/
+
 # OS and editor
 .DS_Store
 Thumbs.db

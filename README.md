@@ -46,6 +46,10 @@ The first `reflex run` downloads the frontend toolchain and needs a network conn
 
 Stop the server with Ctrl+C.
 
+## Deploy
+
+The GitHub Actions workflow builds this site on every push to `main`. Deploying to Azure App Service is described in [DEPLOY.md](DEPLOY.md). Those deploy jobs stay skipped until an Azure subscription exists and the variable `AZURE_DEPLOY_ENABLED` is set to `true`.
+
 ## What is in the studio
 
 - **Studio** (`/`) — hero, a pigment index you can switch, and three paintings.
